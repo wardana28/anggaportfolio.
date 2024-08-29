@@ -84,7 +84,7 @@ div .wrap .content {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 0px;
   }
 
   img {
@@ -93,7 +93,14 @@ div .wrap .content {
 
   .wrap .content {
     text-align: center;
-    padding: 30px -500px;
+    width: 50%;
+    position: absolute;
+  }
+
+  .wrap .content p {
+    text-align: left;
+    margin-left: 0px;
+    position: relative;
   }
 }
 
