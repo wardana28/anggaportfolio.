@@ -76,10 +76,10 @@ nav ul li a:hover {
 }
 
 .fotoku {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   /* float: right; */
-  margin-top: 200px;
+  margin-top: 90px;
   border-radius: 50%;
   margin-left: 10px;
 }
@@ -199,9 +199,11 @@ nav ul li a:hover {
 .project .container-card {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .project .card {
   /* height: 300px; */
+  align-items: center;
   border: 1px solid chartreuse;
   margin: 30px 30px;
   color: #fff;
@@ -271,6 +273,8 @@ nav ul li a:hover {
   }
 
   .fotoku {
+    width: 300px;
+    height: 300px;
     margin-top: 20px;
     margin-bottom: -150px;
     margin-left: 0;
