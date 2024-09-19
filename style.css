@@ -22,7 +22,7 @@ nav {
   padding: 20px 50px;
   align-items: center;
   z-index: 9999;
-  border-bottom: 1px solid rgba(31, 26, 18, 0.737);
+  border-bottom: 1px solid white;
 }
 
 nav .logo {
