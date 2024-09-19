@@ -218,10 +218,16 @@ nav ul li a:hover {
 }
 
 .header img {
-  position: relative;
-  top: -100px;
-  width: inherit;
-  height: inherit;
+  width: 516.69px;
+  height: 200px;
+}
+.card p {
+  font-weight: bold;
+}
+
+.card a {
+  text-decoration: none;
+  color: #3d3c3c;
 }
 
 .project .card button {
@@ -264,8 +270,8 @@ nav ul li a:hover {
     /* padding: -110px; */
   }
 
-  img {
-    margin-top: 100px;
+  .fotoku {
+    margin-top: 20px;
     margin-bottom: -150px;
     margin-left: 0;
   }
@@ -291,5 +297,15 @@ nav ul li a:hover {
 
   .about-2 {
     height: 30%;
+  }
+
+  .project .card {
+    align-items: center;
+  }
+
+  .header img {
+    position: relative;
+    top: -0px;
+    width: 292.67px;
   }
 }
