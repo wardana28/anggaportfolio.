@@ -229,7 +229,7 @@ nav ul li a:hover {
 .container-skil .row {
   /* height: 300px; */
   align-items: center;
-  border: 1px solid chartreuse;
+  border: 2px solid black;
   margin: 30px 30px;
   color: #fff;
   text-align: center;
