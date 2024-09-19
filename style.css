@@ -366,12 +366,12 @@ nav ul li a:hover {
     height: 192.67px;
   }
   .skil .row img:hover {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: black;
   }
   .skil .row img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
   }
 }
