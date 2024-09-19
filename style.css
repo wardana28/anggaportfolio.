@@ -6,17 +6,17 @@
 
 body {
   font-family: sans-serif;
-
   background-color: black;
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.432);
+  background-color: rgba(255, 255, 255, 0.142);
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   display: flex;
+  backdrop-filter: blur(10px);
   justify-content: space-between;
   padding: 20px 50px;
   align-items: center;
@@ -33,6 +33,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   width: 40%;
+  list-style: none;
 }
 
 nav ul li a {
@@ -58,27 +59,37 @@ nav ul li a:hover {
 }
 
 .hero {
-  position: absolute;
-  background-image: url(/background.jpg);
+  /* position: absolute; */
+  /* top: 0; */
+  /* height: auto; */
+  /* background-image: url(/background.jpg); */
+  margin-top: 115px;
+  margin-left: 15px;
+  margin-right: 15px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  border-radius: 15px;
+  border: 1px solid chartreuse;
+  /* background-color: #525252; */
 }
 
 img {
   width: 200px;
   height: 200px;
   /* float: right; */
-  border-radius: 20px;
+  border-radius: 50%;
   margin-left: 400px;
 }
 .wrap {
   display: flex;
   justify-content: space-between;
-  margin: 150px 50px;
+  margin: 250px 50px;
   color: aliceblue;
   align-items: center;
+  /* position: absolute; */
+  padding: 25px;
 }
 
 .wrap h3 {
@@ -110,6 +121,60 @@ div .wrap .content {
   width: 50px;
   height: 28px;
   position: absolute;
+}
+
+.wrap .content .button {
+  padding: 10px;
+  color: chartreuse;
+  border: 2px solid chartreuse;
+  margin-top: 25px;
+  background: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* tentang */
+
+.about {
+  margin: 60px 20px 60px 20px;
+  /* background-color: white; */
+  border: 1px solid chartreuse;
+  border-radius: 15px;
+}
+
+.about h3 {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.about .card {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  margin: 35px auto;
+  padding: 35px;
+}
+
+.about .about-1 {
+  background-color: chartreuse;
+  padding: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 10px gray;
+}
+
+.about .about-2 {
+  background-color: chartreuse;
+  padding: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 10px gray;
 }
 
 @media screen and (max-width: 576px) {
@@ -150,5 +215,16 @@ div .wrap .content {
     text-align: left;
     margin-left: 0px;
     position: relative;
+  }
+
+  .about .card {
+    flex-direction: column;
+  }
+  .about-1 {
+    height: 30%;
+  }
+
+  .about-2 {
+    height: 30%;
   }
 }
