@@ -29,12 +29,16 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav>
       <div class="logo">
-        <img src="" alt="" />
-        <h1 id="logo">{ANGGA}</h1>
+        <!-- <img src="" alt="" /> -->
+        <h1>
+          {<span data-aos="zoom-in" data-aos-duration="10000">ANGGA</span>}
+        </h1>
       </div>
       <ul>
         <li><a href="#hero" class="home">Home</a></li>
@@ -58,9 +62,9 @@
       <!-- <img class="background" src="/background-logo.png" alt="" /> -->
       <div class="wrap">
         <div class="content">
-          <h1>Hi my name is Angga</h1>
-          <h3>Frontend Developer</h3>
-          <p>
+          <h1 id="text"></h1>
+          <h3 id="text-2"></h3>
+          <p data-aos="fade-up" data-aos-duration="1000">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
             tempore omnis, laborum cumque sint nemo minus cupiditate ipsa
             aperiam corrupti illo animi suscipit impedit dolore in corporis
@@ -69,15 +73,24 @@
             cum?
           </p>
 
-          <button class="button">Hire Me</button>
+          <button data-aos="fade-up" data-aos-duration="1000" class="button">
+            Hire Me
+          </button>
         </div>
-        <img class="fotoku" src="/profile.png" alt="" />
+        <img
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="2000"
+          class="fotoku"
+          src="/profile.png"
+          alt=""
+        />
       </div>
     </section>
 
     <section class="about" id="about">
-      <h2>About Me</h2>
-      <div class="card-about">
+      <h2 data-aos="fade-down" data-aos-duration="1000">About Me</h2>
+      <div class="card-about" data-aos="fade-up" data-aos-duration="1000">
         <p class="about-1">
           I am a front-end developer with experience in HTML, CSS, and
           JavaScript. My journey into web development began with a strong
@@ -237,5 +250,29 @@
         </div>
       </div>
     </section>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#text", {
+        strings: ["Hi my name is Angga"],
+        typeSpeed: 50,
+        cursorChar: "",
+      });
+
+      var typed = new Typed("#text-2", {
+        strings: ["Frontend Developer"],
+        typeSpeed: 50,
+        cursorChar: "",
+        startDelay: 1500,
+      });
+    </script>
+
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
