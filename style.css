@@ -415,7 +415,7 @@ nav ul li a:hover {
   }
 
   .contact .row h4 {
-    margin-left: 20%;
+    margin-left: 15%;
   }
 
   .contact .row input {
@@ -424,12 +424,12 @@ nav ul li a:hover {
     /* justify-content: center; */
     height: 40px;
     width: 300px;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-bottom: 35px;
     /* align-items: center; */
   }
 
-  .tobrut {
-    margin-left: 46%;
+  .contact .tobrut {
+    margin-left: 40%;
   }
 }
