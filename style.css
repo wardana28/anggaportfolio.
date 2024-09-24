@@ -202,7 +202,8 @@ nav ul li a:hover {
 
 /* project section */
 .project,
-.skil {
+.skil,
+.contact {
   background-color: #1c1c1c;
   margin-bottom: 50px;
   margin: 50px 20px 50px 20px;
@@ -211,7 +212,8 @@ nav ul li a:hover {
 }
 
 .project h2,
-.skil h2 {
+.skil h2,
+.contact h2 {
   padding-top: 30px;
   /* display: inline-block; */
   color: #fff;
@@ -284,6 +286,42 @@ nav ul li a:hover {
   width: 250px;
   height: 250px;
   background-color: black;
+}
+
+.contact .row {
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: #fff;
+  /* align-items: center; */
+}
+
+.contact .row h4 {
+  margin-bottom: 15px;
+  margin-left: 25%;
+}
+
+.contact .row input {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  height: 50px;
+  width: 650px;
+  margin-left: 25%;
+  margin-bottom: 35px;
+  /* align-items: center; */
+}
+
+.contact .tobrut {
+  margin-left: 48%;
+  margin-bottom: 40px;
+  width: 80px;
+  height: 40px;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
@@ -374,5 +412,24 @@ nav ul li a:hover {
   .skil .row img {
     width: 75px;
     height: 75px;
+  }
+
+  .contact .row h4 {
+    margin-left: 20%;
+  }
+
+  .contact .row input {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    height: 40px;
+    width: 300px;
+    margin-left: 20%;
+    margin-bottom: 35px;
+    /* align-items: center; */
+  }
+
+  .tobrut {
+    margin-left: 46%;
   }
 }
