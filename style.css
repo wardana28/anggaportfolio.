@@ -366,6 +366,7 @@ margin-bottom: 25px;
   cursor: pointer;
 }
 
+
 /* fotter */
 footer {
   background-color: #1c1c1c;
@@ -373,6 +374,43 @@ footer {
   padding: 1rem 0 3rem;
   margin-top: 3rem;
   font-size: 0.5rem;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .social a:hover,
+footer .social .links:hover {
+  color: black;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 0.5rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
+}
+/* penutup fotter */
+
+/* fotter */
+footer {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
 }
 
 footer .social {
