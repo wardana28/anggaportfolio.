@@ -413,11 +413,10 @@ footer .social .links:hover {
 footer .links a {
   color: #fff;
   padding: 0.7rem 0.5rem;
-  font-size: 3rem;
 }
 
-footer .credit {
-  font-size: 5rem;
+footer .credit p {
+  font-size: 1.5rem;
 }
 
 footer .credit a {
