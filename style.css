@@ -191,6 +191,11 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+.wrap .content .button a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* tentang */
 
 .about {
