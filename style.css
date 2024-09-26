@@ -306,7 +306,7 @@ nav ul li a:hover {
   /* justify-content: center; */
   height: 50px;
   width: 650px;
-  margin-left: 45%;
+  margin-left: 25%;
   margin-bottom: 35px;
   /* align-items: center; */
 }
@@ -323,6 +323,44 @@ nav ul li a:hover {
   font-size: 15px;
   cursor: pointer;
 }
+
+/* fotter */
+footer {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .social a:hover,
+footer .social .links:hover {
+  color: var(--bg);
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit p {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 15px;
+}
+/* penutup fotter */
 
 @media screen and (max-width: 576px) {
 }
@@ -424,7 +462,7 @@ nav ul li a:hover {
     /* justify-content: center; */
     height: 40px;
     width: 300px;
-    margin-left: 7%;
+    margin-left: 15%;
     margin-bottom: 35px;
     /* align-items: center; */
   }
