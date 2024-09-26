@@ -412,7 +412,7 @@ footer .credit p {
     top: 0;
     right: 0;
     justify-content: space-evenly;
-    z-index: -1;
+    z-index: -10;
     transform: translateX(100%);
     transition: all 1s;
   }
