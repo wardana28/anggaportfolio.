@@ -28,6 +28,9 @@
       rel="stylesheet"
     />
 
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <link rel="stylesheet" href="style.css" />
     <!-- aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -91,7 +94,7 @@
     <section class="about" id="about">
       <h2 data-aos="fade-down" data-aos-duration="1000">About Me</h2>
       <div class="card-about" data-aos="fade-up" data-aos-duration="1000">
-        <p class="about-1"data-aos="fade-up" data-aos-duration="1000">
+        <p class="about-1" data-aos="fade-up" data-aos-duration="1000">
           I am a front-end developer with experience in HTML, CSS, and
           JavaScript. My journey into web development began with a strong
           passion for creating websites, and I have successfully completed
@@ -127,7 +130,7 @@
           </div>
         </div>
 
-        <div class="card"data-aos="zoom-in" data-aos-duration="1000">
+        <div class="card" data-aos="zoom-in" data-aos-duration="1000">
           <div class="header">
             <img src="/img/project-2.png" alt="" />
           </div>
@@ -168,8 +171,6 @@
       <h2 data-aos="fade-down" data-aos-duration="1000">My Skil</h2>
       <div class="container-skil">
         <div class="row" data-aos="zoom-in" data-aos-duration="1000">
-      <div class="container-skil">
-        <div class="row"data-aos="zoom-in" data-aos-duration="1000">
           <img
             width="200px"
             height="200px"
@@ -179,7 +180,6 @@
           <p>HTML 5</p>
         </div>
         <div class="row" data-aos="zoom-in" data-aos-duration="1000">
-        <div class="row"data-aos="zoom-in" data-aos-duration="1000">
           <img
             width="200px"
             height="200px"
@@ -276,6 +276,31 @@
       <button class="tobrut">Send</button>
     </section>
 
+    <!-- footer start -->
+    <footer>
+      <div class="social">
+        <a href="https://github.com/wardana28"><i data-feather="github"></i></a>
+        <a href="https://x.com/triwahdana"><i data-feather="twitter"></i></a>
+        <a
+          href="https://www.linkedin.com/in/angga-tri-wardana-a87930267/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=id"
+          ><i data-feather="linkedin"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by Angga Tri Wardana | &copy;2024</p>
+        <br />
+        <p>Kerjo, Sidolaju, Kabupaten Ngawi, Jawa Timur</p>
+      </div>
+    </footer>
+    <!-- footer end-->
     <!-- Load library from the CDN -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -298,6 +323,11 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
     </script>
   </body>
 </html>
