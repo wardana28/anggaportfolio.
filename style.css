@@ -416,11 +416,11 @@ footer .links a {
 }
 
 footer .credit {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 footer .credit a {
-  color: var(--bg);
+  color: #fff;
   font-weight: 700;
 }
 /* penutup fotter */
