@@ -11,7 +11,7 @@ body {
 
 nav {
   /* background-color: rgba(16, 15, 15, 0.676); */
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
   background-color: #101010ac;
   position: fixed;
   top: 0;
