@@ -354,7 +354,7 @@ nav ul li a:hover {
   margin-left: 25%;
   margin-bottom: 35px;
   background-color: #1c1c1c;
-  border: 1.5px solid #fff;
+  border: 1px solid #fff;
   border-radius: 10px;
   color: #fff;
   padding: 20px;
@@ -372,7 +372,7 @@ nav ul li a:hover {
   margin-left: 25%;
   margin-bottom: 35px;
   background-color: #1c1c1c;
-  border: 1.5px solid #fff;
+  border: 1px solid #fff;
   border-radius: 10px;
 }
 
