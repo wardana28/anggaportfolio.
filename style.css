@@ -509,6 +509,11 @@ footer .credit p {
     position: relative;
   }
 
+  
+  .wrap .nama {
+    justify-content: center;
+  }
+
   .about .card-about {
     flex-direction: column;
   }
