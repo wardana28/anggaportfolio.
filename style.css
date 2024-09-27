@@ -150,6 +150,15 @@ nav ul li a:hover {
   margin-bottom: 25px;
   padding: -50px;
 }
+
+.wrap .nama {
+  display: flex;
+}
+
+.wrap .nama .text-1 {
+  margin-left: 10px;
+}
+
 .wrap .content {
   margin-top: 200px;
   max-width: 50%;
