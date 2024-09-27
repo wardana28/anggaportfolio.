@@ -145,19 +145,20 @@ nav ul li a:hover {
   /* position: absolute; */
 }
 
+.wrap .nama {
+  display: flex;
+}
+
+.wrap .nama .text-1 {
+  margin-left: 10px;
+}
+
 .wrap h3 {
   color: chartreuse;
   margin-bottom: 25px;
   padding: -50px;
 }
 
-/* .wrap .nama {
-  display: flex;
-}
-
-.wrap .nama .text-1 {
-  margin-left: 10px;
-} */
 
 .wrap .content {
   margin-top: 200px;
