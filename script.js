@@ -7,7 +7,7 @@ menu.addEventListener("click", function () {
 
 // animasi ketik
 var typed = new Typed("#text", {
-  strings: ["Hi my name is,"],
+  strings: ["Hi, my name is"],
   typeSpeed: 50,
   cursorChar: "",
 });
