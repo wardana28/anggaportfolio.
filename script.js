@@ -13,7 +13,7 @@ var typed = new Typed("#text", {
 });
 
 var typed = new Typed("#text-1", {
-  strings: [" Angga", " tri", " Wardana"],
+  strings: [" Angga", " Tri", " Wardana"],
   typeSpeed: 50,
   cursorChar: "",
   startDelay: 1000,
